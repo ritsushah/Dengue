@@ -1,0 +1,6 @@
+.env
+.env.local
+*.pem
+.DS_Store
+data/raw/_tmp/
+data/logs/*.tmp

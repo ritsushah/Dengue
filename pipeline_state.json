@@ -1,0 +1,87 @@
+{
+  "review_id": "FIA-vs-ELISA-dengue-NS1",
+  "intake_date": "2026-08-19",
+  "search_date_lock": "2026-09-01",
+  "search_date_lock_confirmed_by_pi": "2026-08-19",
+  "search_date_lock_decision": "Overridden by PI on 2026-08-19: run PRISMA bibliographic retrieval now.",
+  "search_executed": true,
+  "search_executed_date": "2026-08-19",
+  "access_mode": "web_sso_only",
+  "institution": "University of Toledo",
+  "sso": "ADFS/OpenAthens (fs.utoledo.edu); username ssah3 (Rocket ID), domain utad",
+  "api_access": false,
+  "credentials_in_repo": false,
+  "access_verified_at": "2026-08-19T05:36:00Z",
+  "sources": {
+    "pubmed": {
+      "mode": "website",
+      "status": "searched",
+      "n_identified": 423,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "advanced": "https://pubmed.ncbi.nlm.nih.gov/advanced/",
+      "note": "NCBI API key/email not used. Search run on pubmed.ncbi.nlm.nih.gov; 423 PMIDs saved."
+    },
+    "embase": {
+      "mode": "web_sso",
+      "status": "exported",
+      "n_identified": 959,
+      "n_retrieved": 959,
+      "url": "https://www.embase.com/results",
+      "entry": "https://libguides.utoledo.edu/embasedb",
+      "records": "data/imports/embase/embase_records_2026-08-19.ris"
+    },
+    "web_of_science": {
+      "mode": "web_sso",
+      "status": "exported",
+      "n_identified": 432,
+      "n_retrieved": 432,
+      "url": "https://www.webofscience.com/wos/woscc/summary/e815cabe-8ee9-42d1-b46c-c5aad0120b6c-01c3e6e99f/relevance/1",
+      "records": "data/imports/wos/wos_records_2026-08-19.ris",
+      "note": "RIS Full Record, records 1–432. Native file savedrecs.ris; 432 UTs, 406 DOIs."
+    },
+    "scopus": {
+      "mode": "skip",
+      "status": "not_in_ut_az",
+      "use_if_licensed": false,
+      "note": "No Scopus record on UT A-Z Databases; not searched"
+    },
+    "sciencedirect": {
+      "mode": "web_sso",
+      "status": "exported",
+      "n_identified": 75,
+      "n_unfiltered": 88,
+      "n_retrieved": 75,
+      "url": "https://www.sciencedirect.com/search?tak=%28dengue+OR+DENV%29+AND+NS1+AND+%28FIA+OR+ELISA+OR+%22fluorescence+immunoassay%22+OR+Platelia%29+AND+%28sensitivity+OR+specificity%29&articleTypes=FLA%2CREV&show=100",
+      "records": "data/imports/sciencedirect/sciencedirect_records_2026-08-19.ris",
+      "note": "Full protocol tak() string exceeded Elsevier max 8 Boolean connectors/field. Condensed TAK query; Research+Review filter (73+2=75)."
+    },
+    "cochrane": {
+      "mode": "website",
+      "status": "searched",
+      "url": "https://www.cochranelibrary.com/advanced-search",
+      "n_cdsr": 0,
+      "n_central": 10,
+      "n_identified": 10,
+      "records": "data/imports/cochrane/cochrane_central_records_2026-08-19.ris",
+      "note": "Advanced Search, Title Abstract Keyword. 0 Cochrane reviews; 10 CENTRAL trials. Protocol-supplementary."
+    },
+    "google_scholar": {
+      "mode": "website",
+      "url": "https://scholar.google.com",
+      "status": "harvested_first_100",
+      "n_retrieved": 100,
+      "query": "dengue NS1 \"fluorescence immunoassay\" OR \"STANDARD F\" OR \"QUANTI CARD\" ELISA sensitivity",
+      "records": "data/imports/scholar/scholar_fia_focused_2026-08-19.json"
+    },
+    "openalex": { "mode": "public_api", "status": "available_no_key" },
+    "crossref": { "mode": "public_api", "status": "available_no_key" }
+  },
+  "notes": [
+    "Publisher APIs are not available on this account. Searches use vendor websites after UT SSO, plus public websites (PubMed, Cochrane, Google Scholar) and public APIs (OpenAlex, Crossref).",
+    "SAMLRequest URLs are single-use and expire; durable entry is the UT A-Z database list.",
+    "UTAD password is not stored in this repository.",
+    "NCBI_EMAIL and NCBI_API_KEY were declined; PubMed is still in scope via pubmed.ncbi.nlm.nih.gov.",
+    "Identification locked 2026-08-19. Quantitative synthesis locked to five reconstructable FIA 2x2 tables (N=794). Dual independent screening of all 1082 unique bibliographic records was not completed.",
+    "Manuscript and PDF generated 2026-08-19: manuscript/FIA_vs_ELISA_Dengue_NS1_MetaAnalysis.md and .pdf. Canonical analysis: analysis/dta_meta_analysis.py (not the placeholder R dataframe)."
+  ]
+}

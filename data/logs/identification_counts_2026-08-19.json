@@ -1,0 +1,104 @@
+{
+  "search_date": "2026-08-19",
+  "executed_by": "PI override of September 2026 lock",
+  "interface_mode": "web_sso_plus_public_apis",
+  "identified": {
+    "pubmed": {
+      "n": 423,
+      "interface": "https://pubmed.ncbi.nlm.nih.gov/ (same MEDLINE index also retrieved via E-utilities, no API key)",
+      "records": "data/imports/pubmed/pubmed_pmids_2026-08-19.txt",
+      "summaries": "data/raw/pubmed/pubmed_esummary_2026-08-19.json"
+    },
+    "embase": {
+      "n": 959,
+      "retrieved": 959,
+      "interface": "Embase.com Advanced Search via University of Toledo OpenAthens",
+      "records": "data/imports/embase/embase_records_2026-08-19.ris",
+      "note": "Default mapping options were on (Map to Emtree; search as free text; explode). Query #1 on results page: 959 results. Records harvested from the logged-in results session."
+    },
+    "web_of_science": {
+      "n": 432,
+      "retrieved": 432,
+      "interface": "Web of Science Core Collection, Topic field, editions=All",
+      "url": "https://www.webofscience.com/wos/woscc/summary/e815cabe-8ee9-42d1-b46c-c5aad0120b6c-01c3e6e99f/relevance/1",
+      "records": "data/imports/wos/wos_records_2026-08-19.ris",
+      "note": "RIS export: records 1–432, Full Record. 432 unique UTs; 406 DOIs."
+    },
+    "scopus": {
+      "n": null,
+      "status": "not_searched",
+      "reason": "Not licensed on University of Toledo A-Z Databases"
+    },
+    "sciencedirect": {
+      "n": 75,
+      "n_unfiltered": 88,
+      "retrieved": 75,
+      "interface": "ScienceDirect Advanced Search, Title/abstract/keywords (tak), via University of Toledo OpenAthens",
+      "url": "https://www.sciencedirect.com/search?tak=%28dengue+OR+DENV%29+AND+NS1+AND+%28FIA+OR+ELISA+OR+%22fluorescence+immunoassay%22+OR+Platelia%29+AND+%28sensitivity+OR+specificity%29&articleTypes=FLA%2CREV&show=100",
+      "records": "data/imports/sciencedirect/sciencedirect_records_2026-08-19.ris",
+      "query": "(dengue OR DENV) AND NS1 AND (FIA OR ELISA OR \"fluorescence immunoassay\" OR Platelia) AND (sensitivity OR specificity)",
+      "note": "Full protocol tak() string rejected (max 8 Boolean connectors per field). Condensed query: 88 hits; Research+Review filter: 75."
+    },
+    "cochrane": {
+      "n": 10,
+      "n_cdsr": 0,
+      "n_central": 10,
+      "status": "searched",
+      "interface": "Cochrane Library Advanced Search, Title Abstract Keyword",
+      "url": "https://www.cochranelibrary.com/advanced-search",
+      "records": "data/imports/cochrane/cochrane_central_records_2026-08-19.ris",
+      "query": "(dengue OR DENV OR \"dengue fever\") AND (NS1 OR \"nonstructural protein 1\") AND (FIA OR ELISA OR \"fluorescence immunoassay\" OR Platelia) AND (sensitivity OR specificity OR \"diagnostic accuracy\")",
+      "note": "0 CDSR reviews; 10 CENTRAL trials. Protocol-supplementary."
+    },
+    "google_scholar": {
+      "n_primary_quoted_and": 0,
+      "n_fia_focused": 100,
+      "screening_cap": 200,
+      "records": "data/imports/scholar/scholar_fia_focused_2026-08-19.json",
+      "note": "Protocol primary query with many AND-quoted blocks returned 0 hits. Focused FIA query: first 100 by relevance saved (pages 1-10)."
+    },
+    "openalex": {
+      "n": 8786,
+      "retrieved": 2000,
+      "role": "supplementary_public_index",
+      "file": "data/raw/openalex/openalex_works_2026-08-19.json",
+      "note": "Keyword search is broader than MEDLINE/Embase syntax. Do not treat 8786 as equivalent to the bibliographic database counts."
+    },
+    "crossref": {
+      "n": 45906,
+      "retrieved": 2000,
+      "role": "supplementary_too_sensitive",
+      "file": "data/raw/crossref/crossref_works_2026-08-19.json",
+      "note": "Not used as a PRISMA identification source. Query was too sensitive."
+    },
+    "clinicaltrials_gov": {
+      "n": 22,
+      "file": "data/raw/grey/clinicaltrials_2026-08-19.json"
+    },
+    "europepmc_preprints": {
+      "n": 66,
+      "file": "data/raw/grey/europepmc_preprints_2026-08-19.json"
+    }
+  },
+  "prisma_databases_sum_completed": 1889,
+  "prisma_databases_sum_note": "PubMed 423 + Embase 959 + WoS 432 + ScienceDirect 75 = 1889 before deduplication. Cochrane CENTRAL 10 is supplementary. Scholar supplementary. Scopus skipped.",
+  "dedup_pubmed_embase": {
+    "input": 1382,
+    "duplicates_removed": 398,
+    "unique": 984,
+    "file": "data/deduped/unique_pubmed_embase_2026-08-19.csv"
+  },
+  "dedup_pubmed_embase_wos": {
+    "input": 1814,
+    "duplicates_removed": 746,
+    "unique": 1068,
+    "file": "data/deduped/unique_pubmed_embase_wos_2026-08-19.csv"
+  },
+  "dedup_pubmed_embase_wos_sd": {
+    "input": 1889,
+    "duplicates_removed": 807,
+    "unique": 1082,
+    "sciencedirect_unique_to_source": 14,
+    "file": "data/deduped/unique_pubmed_embase_wos_sd_2026-08-19.csv"
+  }
+}

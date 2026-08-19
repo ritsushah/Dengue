@@ -1,0 +1,82 @@
+{
+  "search_date": "2026-08-19",
+  "identified": {
+    "pubmed": 423,
+    "embase": 959,
+    "web_of_science": 432,
+    "web_of_science_records_in_file": 432,
+    "sciencedirect": 75,
+    "cochrane_central": 10,
+    "clinicaltrials_gov": 22,
+    "europepmc_preprints": 66
+  },
+  "bibliographic_pubmed_embase": {
+    "input_n": 1382,
+    "unique_n": 984,
+    "duplicates_removed": 398,
+    "duplicates_by_source": {
+      "pubmed": 1,
+      "embase": 397
+    },
+    "by_reason": {
+      "title_year": 6,
+      "doi": 358,
+      "title": 4,
+      "pmid": 30
+    }
+  },
+  "bibliographic_pubmed_embase_wos": {
+    "input_n": 1814,
+    "unique_n": 1068,
+    "duplicates_removed": 746,
+    "duplicates_by_source": {
+      "pubmed": 1,
+      "embase": 397,
+      "web_of_science": 348
+    },
+    "by_reason": {
+      "title_year": 24,
+      "doi": 687,
+      "title": 5,
+      "pmid": 30
+    }
+  },
+  "bibliographic_pubmed_embase_wos_sd": {
+    "input_n": 1889,
+    "unique_n": 1082,
+    "duplicates_removed": 807,
+    "duplicates_by_source": {
+      "pubmed": 1,
+      "embase": 397,
+      "web_of_science": 348,
+      "sciencedirect": 61
+    },
+    "by_reason": {
+      "title_year": 83,
+      "doi": 687,
+      "title": 7,
+      "pmid": 30
+    }
+  },
+  "bibliographic_plus_grey": {
+    "input_n": 1987,
+    "unique_n": 1162,
+    "duplicates_removed": 825,
+    "duplicates_by_source": {
+      "pubmed": 1,
+      "embase": 397,
+      "web_of_science": 348,
+      "sciencedirect": 61,
+      "clinicaltrials_gov": 5,
+      "europepmc_preprints": 9,
+      "cochrane_central": 4
+    },
+    "by_reason": {
+      "title_year": 89,
+      "doi": 693,
+      "title": 13,
+      "pmid": 30
+    }
+  },
+  "note": "Duplicates were removed among retrieved PubMed, Embase, Web of Science, and ScienceDirect records. Cochrane CENTRAL (10 trials; 0 CDSR reviews) is a supplementary harvest. unique_screened for PRISMA is not closed: Google Scholar remains a supplementary harvest and is not merged."
+}

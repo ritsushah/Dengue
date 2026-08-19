@@ -1,0 +1,44 @@
+{
+  "pubmed": {
+    "source": "PubMed/MEDLINE",
+    "interface": "pubmed.ncbi.nlm.nih.gov (same index via E-utilities; no API key)",
+    "date": "2026-08-19",
+    "count": 423,
+    "retrieved": 423,
+    "pmid_file": "data/imports/pubmed/pubmed_pmids_2026-08-19.txt",
+    "summary_file": "data/raw/pubmed/pubmed_esummary_2026-08-19.json",
+    "website_url": "https://pubmed.ncbi.nlm.nih.gov/?term=%28%22Dengue%22%5BMeSH%20Terms%5D%20OR%20%22Dengue%20Virus%22%5BMeSH%20Terms%5D%20OR%20%22Severe%20Dengue%22%5BMeSH%20Terms%5D%0AOR%20dengue%5Btiab%5D%20OR%20DENV%5Btiab%5D%20OR%20%22dengue%20fever%22%5Btiab%5D%20OR%20%22dengue%20virus%22%5Btiab%5D%0AOR%20%22dengue%20hemorrhagic%20fever%22%5Btiab%5D%20OR%20%22dengue%20haemorrhagic%20fever%22%5Btiab%5D%0AOR%20%22dengue%20shock%20syndrome%22%5Btiab%5D%20OR%20%22break-bone%20fever%22%5Btiab%5D%20OR%20%22breakbone%20fever%22%5Btiab%5D%0AOR%20DENV-1%5Btiab%5D%20OR%20DENV-2%5Btiab%5D%20OR%20DENV-3%5Btiab%5D%20OR%20DENV-4%5Btiab%5D%29%0AAND%0A%28%22Viral%20Nonstructural%20Proteins%22%5BMeSH%20Terms%5D%20OR%20%22NS1%22%5Btiab%5D%20OR%20%22NS-1%22%5Btiab%5D%0AOR%20%22NS1%20antigen%22%5Btiab%5D%20OR%20%22NS1%20Ag%22%5Btiab%5D%20OR%20%22nonstructural%20protein%201%22%5Btiab%5D%0AOR%20%22non-structural%20protein%201%22%5Btiab%5D%20OR%20%22nonstructural%20glycoprotein%201%22%5Btiab%5D%0AOR%20%22non-structural%20glycoprotein%201%22%5Btiab%5D%20OR%20%22nonstructural%20protein-1%22%5Btiab%5D%0AOR%20%22NS1%20antigenemia%22%5Btiab%5D%20OR%20%22NS1%20antigenaemia%22%5Btiab%5D%29%0AAND%0A%28%0A%28%22Fluorescence%20Immunoassay%22%5Btiab%5D%20OR%20%22fluorescent%20immunoassay%22%5Btiab%5D%20OR%20%22FIA%22%5Btiab%5D%0AOR%20%22fluorescence-based%20immunoassay%22%5Btiab%5D%20OR%20%22time-resolved%20fluorescence%20immunoassay%22%5Btiab%5D%0AOR%20%22TRFIA%22%5Btiab%5D%20OR%20%22TR-FIA%22%5Btiab%5D%20OR%20%22immunofluorescence%20assay%22%5Btiab%5D%0AOR%20%22fluorescent%20lateral%20flow%22%5Btiab%5D%20OR%20%22fluorescence%20lateral%20flow%22%5Btiab%5D%0AOR%20%22europium%20fluorescence%22%5Btiab%5D%20OR%20%22quantum%20dot%20immunoassay%22%5Btiab%5D%0AOR%20%22STANDARD%20F%22%5Btiab%5D%20OR%20%22SD%20Biosensor%22%5Btiab%5D%20OR%20%22F200%20analyzer%22%5Btiab%5D%0AOR%20%22STANDARD%20F200%22%5Btiab%5D%20OR%20%22fluorescent%20rapid%20diagnostic%22%5Btiab%5D%0AOR%20%22fluorescence%20rapid%20test%22%5Btiab%5D%20OR%20%22QUANTI%20CARD%22%5Btiab%5D%20OR%20%22Fluoroimmunoassay%22%5BMeSH%20Terms%5D%29%0AOR%0A%28%22Enzyme-Linked%20Immunosorbent%20Assay%22%5BMeSH%20Terms%5D%20OR%20%22ELISA%22%5Btiab%5D%0AOR%20%22enzyme%20linked%20immunosorbent%20assay%22%5Btiab%5D%20OR%20%22enzyme-linked%20immunosorbent%20assay%22%5Btiab%5D%0AOR%20%22enzyme%20immunoassay%22%5Btiab%5D%20OR%20%22EIA%22%5Btiab%5D%20OR%20%22Platelia%22%5Btiab%5D%20OR%20%22Panbio%22%5Btiab%5D%0AOR%20%22microwell%20ELISA%22%5Btiab%5D%20OR%20%22sandwich%20ELISA%22%5Btiab%5D%20OR%20%22capture%20ELISA%22%5Btiab%5D%0AOR%20%22NS1%20ELISA%22%5Btiab%5D%20OR%20%22Panbio%20Dengue%20Early%20ELISA%22%5Btiab%5D%0AOR%20%22Platelia%20Dengue%20NS1%20Ag%22%5Btiab%5D%20OR%20%22InBios%20DENV%20Detect%22%5Btiab%5D%20OR%20%22STANDARD%20E%22%5Btiab%5D%29%0A%29%0AAND%0A%28%22Sensitivity%20and%20Specificity%22%5BMeSH%20Terms%5D%20OR%20%22Predictive%20Value%20of%20Tests%22%5BMeSH%20Terms%5D%0AOR%20%22ROC%20Curve%22%5BMeSH%20Terms%5D%20OR%20%22Diagnostic%20Tests%2C%20Routine%22%5BMeSH%20Terms%5D%0AOR%20%22Reference%20Standards%22%5BMeSH%20Terms%5D%0AOR%20sensitivity%5Btiab%5D%20OR%20specificity%5Btiab%5D%20OR%20%22diagnostic%20accuracy%22%5Btiab%5D%0AOR%20%22diagnostic%20performance%22%5Btiab%5D%20OR%20%22diagnostic%20test%22%5Btiab%5D%0AOR%20%22predictive%20value%22%5Btiab%5D%20OR%20%22positive%20predictive%20value%22%5Btiab%5D%0AOR%20%22negative%20predictive%20value%22%5Btiab%5D%20OR%20%22likelihood%20ratio%22%5Btiab%5D%0AOR%20%22likelihood%20ratios%22%5Btiab%5D%20OR%20%22receiver%20operating%20characteristic%22%5Btiab%5D%0AOR%20%22ROC%20curve%22%5Btiab%5D%20OR%20%22area%20under%20the%20curve%22%5Btiab%5D%20OR%20%22AUC%22%5Btiab%5D%0AOR%20%22diagnostic%20odds%20ratio%22%5Btiab%5D%20OR%20%22true%20positive%22%5Btiab%5D%20OR%20%22false%20positive%22%5Btiab%5D%0AOR%20%22true%20negative%22%5Btiab%5D%20OR%20%22false%20negative%22%5Btiab%5D%0AOR%20%22accuracy%22%5Btiab%5D%20OR%20%22agreement%22%5Btiab%5D%20OR%20%22kappa%22%5Btiab%5D%0AOR%20%22concordance%22%5Btiab%5D%20OR%20%22comparative%20study%22%5Btiab%5D%20OR%20%22evaluation%22%5Btiab%5D%0AOR%20%22performance%22%5Btiab%5D%20OR%20%22validation%22%5Btiab%5D%29",
+    "query": "(\"Dengue\"[MeSH Terms] OR \"Dengue Virus\"[MeSH Terms] OR \"Severe Dengue\"[MeSH Terms]\nOR dengue[tiab] OR DENV[tiab] OR \"dengue fever\"[tiab] OR \"dengue virus\"[tiab]\nOR \"dengue hemorrhagic fever\"[tiab] OR \"dengue haemorrhagic fever\"[tiab]\nOR \"dengue shock syndrome\"[tiab] OR \"break-bone fever\"[tiab] OR \"breakbone fever\"[tiab]\nOR DENV-1[tiab] OR DENV-2[tiab] OR DENV-3[tiab] OR DENV-4[tiab])\nAND\n(\"Viral Nonstructural Proteins\"[MeSH Terms] OR \"NS1\"[tiab] OR \"NS-1\"[tiab]\nOR \"NS1 antigen\"[tiab] OR \"NS1 Ag\"[tiab] OR \"nonstructural protein 1\"[tiab]\nOR \"non-structural protein 1\"[tiab] OR \"nonstructural glycoprotein 1\"[tiab]\nOR \"non-structural glycoprotein 1\"[tiab] OR \"nonstructural protein-1\"[tiab]\nOR \"NS1 antigenemia\"[tiab] OR \"NS1 antigenaemia\"[tiab])\nAND\n(\n(\"Fluorescence Immunoassay\"[tiab] OR \"fluorescent immunoassay\"[tiab] OR \"FIA\"[tiab]\nOR \"fluorescence-based immunoassay\"[tiab] OR \"time-resolved fluorescence immunoassay\"[tiab]\nOR \"TRFIA\"[tiab] OR \"TR-FIA\"[tiab] OR \"immunofluorescence assay\"[tiab]\nOR \"fluorescent lateral flow\"[tiab] OR \"fluorescence lateral flow\"[tiab]\nOR \"europium fluorescence\"[tiab] OR \"quantum dot immunoassay\"[tiab]\nOR \"STANDARD F\"[tiab] OR \"SD Biosensor\"[tiab] OR \"F200 analyzer\"[tiab]\nOR \"STANDARD F200\"[tiab] OR \"fluorescent rapid diagnostic\"[tiab]\nOR \"fluorescence rapid test\"[tiab] OR \"QUANTI CARD\"[tiab] OR \"Fluoroimmunoassay\"[MeSH Terms])\nOR\n(\"Enzyme-Linked Immunosorbent Assay\"[MeSH Terms] OR \"ELISA\"[tiab]\nOR \"enzyme linked immunosorbent assay\"[tiab] OR \"enzyme-linked immunosorbent assay\"[tiab]\nOR \"enzyme immunoassay\"[tiab] OR \"EIA\"[tiab] OR \"Platelia\"[tiab] OR \"Panbio\"[tiab]\nOR \"microwell ELISA\"[tiab] OR \"sandwich ELISA\"[tiab] OR \"capture ELISA\"[tiab]\nOR \"NS1 ELISA\"[tiab] OR \"Panbio Dengue Early ELISA\"[tiab]\nOR \"Platelia Dengue NS1 Ag\"[tiab] OR \"InBios DENV Detect\"[tiab] OR \"STANDARD E\"[tiab])\n)\nAND\n(\"Sensitivity and Specificity\"[MeSH Terms] OR \"Predictive Value of Tests\"[MeSH Terms]\nOR \"ROC Curve\"[MeSH Terms] OR \"Diagnostic Tests, Routine\"[MeSH Terms]\nOR \"Reference Standards\"[MeSH Terms]\nOR sensitivity[tiab] OR specificity[tiab] OR \"diagnostic accuracy\"[tiab]\nOR \"diagnostic performance\"[tiab] OR \"diagnostic test\"[tiab]\nOR \"predictive value\"[tiab] OR \"positive predictive value\"[tiab]\nOR \"negative predictive value\"[tiab] OR \"likelihood ratio\"[tiab]\nOR \"likelihood ratios\"[tiab] OR \"receiver operating characteristic\"[tiab]\nOR \"ROC curve\"[tiab] OR \"area under the curve\"[tiab] OR \"AUC\"[tiab]\nOR \"diagnostic odds ratio\"[tiab] OR \"true positive\"[tiab] OR \"false positive\"[tiab]\nOR \"true negative\"[tiab] OR \"false negative\"[tiab]\nOR \"accuracy\"[tiab] OR \"agreement\"[tiab] OR \"kappa\"[tiab]\nOR \"concordance\"[tiab] OR \"comparative study\"[tiab] OR \"evaluation\"[tiab]\nOR \"performance\"[tiab] OR \"validation\"[tiab])"
+  },
+  "openalex": {
+    "source": "OpenAlex",
+    "date": "2026-08-19",
+    "count": 8786,
+    "retrieved": 2000,
+    "file": "data/raw/openalex/openalex_works_2026-08-19.json",
+    "query": "(dengue OR DENV) AND (NS1 OR \"nonstructural protein 1\" OR \"non-structural protein 1\") AND (FIA OR \"fluorescence immunoassay\" OR \"fluorescent immunoassay\" OR TRFIA OR ELISA OR \"enzyme-linked\" OR Platelia OR Panbio) AND (sensitivity OR specificity OR \"diagnostic accuracy\" OR \"diagnostic performance\")"
+  },
+  "crossref": {
+    "source": "Crossref",
+    "date": "2026-08-19",
+    "count": 45906,
+    "retrieved": 2000,
+    "file": "data/raw/crossref/crossref_works_2026-08-19.json",
+    "query": "dengue NS1 (fluorescence immunoassay OR FIA OR ELISA) (sensitivity OR specificity OR diagnostic accuracy)"
+  },
+  "clinicaltrials": {
+    "source": "ClinicalTrials.gov",
+    "date": "2026-08-19",
+    "count": 22,
+    "retrieved": 22,
+    "file": "data/raw/grey/clinicaltrials_2026-08-19.json"
+  },
+  "europepmc_preprints": {
+    "source": "Europe PMC preprints (medRxiv/bioRxiv subset)",
+    "date": "2026-08-19",
+    "count": 66,
+    "retrieved": 66,
+    "file": "data/raw/grey/europepmc_preprints_2026-08-19.json",
+    "query": "(dengue OR DENV) AND (NS1) AND (FIA OR \"fluorescence immunoassay\" OR ELISA) AND (sensitiv* OR specific* OR \"diagnostic accuracy\") AND (SRC:PPR)"
+  }
+}

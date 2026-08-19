@@ -1,0 +1,62 @@
+{
+  "schema": "PRISMA-DTA 2020 identification and screening counts",
+  "search_date": "2026-08-19",
+  "identified": {
+    "pubmed": 423,
+    "embase": 959,
+    "web_of_science": 432,
+    "scopus": "not_searched",
+    "sciencedirect": 75,
+    "cochrane": {
+      "cdsr": 0,
+      "central": 10,
+      "identified": 10
+    },
+    "google_scholar": 100,
+    "openalex": 8786,
+    "crossref_supplement": "45906 (not used as identification source; too sensitive)",
+    "grey": {
+      "clinicaltrials_gov": 22,
+      "europepmc_preprints": 66
+    },
+    "scoping_not_in_bibliographic_unique_set": 2
+  },
+  "databases_total_before_dedup": 1889,
+  "retrieved_for_dedup": {
+    "pubmed": 423,
+    "embase": 959,
+    "web_of_science": 432,
+    "sciencedirect": 75
+  },
+  "duplicates_removed_pubmed_embase_wos_sd": 807,
+  "unique_pubmed_embase_wos_sd": 1082,
+  "duplicates_removed": 807,
+  "unique_bibliographic": 1082,
+  "screening_method": "FIA-term title/field filter of 1082 plus Zapata-de la Cruz 2026 plus two scoping papers. Dual independent screening of all 1082 was not completed.",
+  "fia_term_title_field_hits": 10,
+  "full_text_assessed": 13,
+  "full_text_excluded": {
+    "experimental_or_analytical_platform": 2,
+    "correspondence": 1,
+    "conference_abstract_without_cells": 1,
+    "wrong_index_test": 2,
+    "no_reconstructable_ns1_2x2": 2
+  },
+  "full_text_excluded_total": 8,
+  "included_qualitative": 6,
+  "included_quantitative": 5,
+  "included_narrative_only": ["Pohekar_Bhalchandra_2023"],
+  "quantitative_N_specimens": 794,
+  "notes": [
+    "Search date lock of September 2026 was overridden by the PI on 19 August 2026.",
+    "1889 = PubMed 423 + Embase 959 + Web of Science 432 + ScienceDirect 75 before deduplication. Cochrane CENTRAL (10) is protocol-supplementary and is not in the 1889.",
+    "ScienceDirect: full protocol tak() string exceeded Elsevier's max 8 Boolean connectors per field. Condensed TAK query returned 88 hits; protocol article-type filter (research + review) left 75.",
+    "Of 75 ScienceDirect records, 61 matched PubMed/Embase/WoS and 14 were unique to ScienceDirect.",
+    "Cochrane Advanced Search: 0 CDSR reviews, 10 CENTRAL trials.",
+    "PubMed+Embase+WoS+ScienceDirect = 1889 retrieved; 807 duplicates removed leaving 1082 unique bibliographic records.",
+    "Dual independent screening of all 1082 unique records was not completed.",
+    "OpenAlex and Crossref were run as public indexes; Crossref is not added into the 1889 total.",
+    "Scopus was not searched (not on University of Toledo A-Z Databases).",
+    "Quantitative synthesis: Chaiyo 2022, Zapata-de la Cruz 2026, Ghogre 2021, Zuroidah 2022, Pohekar 2017."
+  ]
+}

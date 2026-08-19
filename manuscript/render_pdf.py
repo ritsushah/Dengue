@@ -94,6 +94,14 @@ blockquote {
   border-left: 2pt solid #888;
   color: #333;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10pt auto 4pt auto;
+  page-break-inside: avoid;
+}
+h2 + p img, p img { page-break-before: avoid; }
 """
 
 

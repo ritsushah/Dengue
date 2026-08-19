@@ -4,7 +4,7 @@
 
 **PROSPERO Registration:** [Pending]
 
-**Search Date:** [To be executed — September 2026]
+**Search Date:** 19 August 2026 (PI override of the planned September 2026 lock)
 
 **Reported in accordance with:** PRISMA-S (Rethlefsen et al., 2021, *Syst Rev*, 10:39, doi:10.1186/s13643-020-01542-z)
 

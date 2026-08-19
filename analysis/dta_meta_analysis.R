@@ -44,10 +44,10 @@ cat("R version:", R.version.string, "\n")
 # ============================================================================
 # 1. DATA INPUT
 # ============================================================================
-# Replace the placeholder data below with your actual extracted 2x2 table data.
-# Each row = one study. Required columns: TP, FP, FN, TN.
-#
-# Data source: extraction_template.md Summary Table
+# LOCKED ANALYSIS IS analysis/dta_meta_analysis.py with
+# data/extraction/included_2x2_2026-08-19.csv
+# The dataframe below is HISTORICAL PLACEHOLDER DATA and must not be used
+# for manuscript estimates. Study_D–J were never extracted.
 # ============================================================================
 
 fia_data <- data.frame(
